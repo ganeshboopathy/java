@@ -28,6 +28,7 @@ class SimpleCalculator{
         default :
         System.out.println("Invalid operation");
         validOperation = false;
+       
      }
      if(validOperation){
         System.out.println("Result: " + result);
